@@ -59,6 +59,7 @@ group :test do
   gem 'chromedriver-helper'
 end 
 
+#newly added by udemy instructor lecture70
 group :production do
   gem'pg'
 end
