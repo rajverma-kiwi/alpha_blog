@@ -61,7 +61,7 @@ end
 
 #newly added by udemy instructor lecture70
 group :production do
-  gem'pg'
+  gem 'pg'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
