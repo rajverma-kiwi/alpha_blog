@@ -5,5 +5,5 @@
 <p><strong>Description: </strong><%= @article.description %></p> 
 
 <%= link_to 'Edit', edit_article_path(@article) %> |
-<%= link_to 'Delete' article_path(@article) , method: :delete, data: { Confirm: "Are you sure?"} %>  |
-<%= link_to 'Return to Article listing', article_path %>
+<%= link_to 'Delete', article_path(@article) , method: :delete, data: { Confirm: "Are you sure?"} %>  |
+<%= link_to 'Return to Article listing', articles_path %>
